@@ -1,0 +1,43 @@
+@import "../../assets/sass/abstracts/variables";
+
+.home {
+  height: 80vh;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+}
+
+.homeItem {
+  padding-left: 10rem;
+}
+
+.headingPrimary {
+  font-weight: 700;
+  font-size: 6.4rem;
+
+  &:last-of-type {
+    margin-bottom: 3rem;
+  }
+}
+
+.paragraph {
+  font-size: 1.5rem;
+  max-width: 59%;
+}
+
+.button {
+  display: inline-block;
+  margin-top: 3rem;
+  background-color: $color-orange-medium;
+  box-shadow: 1rem 1rem 4rem rgba(black, 0.37);
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: white;
+  padding: 1.5rem 3rem;
+  border-radius: 1rem;
+  transition: all .3s;
+
+  &:active {
+    transform: translateY(0.3rem);
+  }
+}
